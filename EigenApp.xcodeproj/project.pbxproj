@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481AA63E1FDEB75D00278484 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481AA63D1FDEB75D00278484 /* QuestionViewController.swift */; };
+		481AA6401FDEBB3400278484 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481AA63F1FDEBB3400278484 /* QuestionData.swift */; };
+		483312AB1FE27E73008BD2D3 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483312AA1FE27E73008BD2D3 /* ResultsViewController.swift */; };
+		483312AD1FE282A8008BD2D3 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483312AC1FE282A8008BD2D3 /* QuizController.swift */; };
+		484BED0F1FE40B2D00706F75 /* ScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484BED0E1FE40B2D00706F75 /* ScoresTableViewController.swift */; };
+		484BED131FE4255500706F75 /* ScoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484BED121FE4255500706F75 /* ScoreData.swift */; };
+		484BED1B1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.28.png in Resources */ = {isa = PBXBuildFile; fileRef = 484BED161FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.28.png */; };
+		484BED1C1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.38.png in Resources */ = {isa = PBXBuildFile; fileRef = 484BED171FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.38.png */; };
+		484BED1D1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.45.png in Resources */ = {isa = PBXBuildFile; fileRef = 484BED181FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.45.png */; };
+		484BED1E1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 484BED191FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.49.png */; };
+		484BED1F1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.57.png in Resources */ = {isa = PBXBuildFile; fileRef = 484BED1A1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.57.png */; };
 		4877E1401FDD654D00C8C08B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877E13F1FDD654D00C8C08B /* AppDelegate.swift */; };
-		4877E1421FDD654D00C8C08B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877E1411FDD654D00C8C08B /* ViewController.swift */; };
 		4877E1451FDD654D00C8C08B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4877E1431FDD654D00C8C08B /* Main.storyboard */; };
 		4877E1471FDD654D00C8C08B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4877E1461FDD654D00C8C08B /* Assets.xcassets */; };
 		4877E14A1FDD654D00C8C08B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4877E1481FDD654D00C8C08B /* LaunchScreen.storyboard */; };
+		4877E1521FDD660800C8C08B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4877E1511FDD660800C8C08B /* GoogleService-Info.plist */; };
+		48D1B9541FDEC41700BAB8DD /* StartQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D1B9531FDEC41700BAB8DD /* StartQuizViewController.swift */; };
+		48E4C51A1FDD858B0086E1B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E4C5191FDD858B0086E1B1 /* LoginViewController.swift */; };
+		D56D681622046484AE1A6CF2 /* Pods_EigenApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA06904AB4CBF80E1E9B44F /* Pods_EigenApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FA06904AB4CBF80E1E9B44F /* Pods_EigenApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EigenApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39ADC8119039BDC3CBD77682 /* Pods-EigenApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EigenApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EigenApp/Pods-EigenApp.release.xcconfig"; sourceTree = "<group>"; };
+		481AA63D1FDEB75D00278484 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestionViewController.swift; path = /Users/martijnblauw/Desktop/EigenApp/EigenApp/QuestionViewController.swift; sourceTree = "<absolute>"; };
+		481AA63F1FDEBB3400278484 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
+		483312AA1FE27E73008BD2D3 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		483312AC1FE282A8008BD2D3 /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		484BED0E1FE40B2D00706F75 /* ScoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresTableViewController.swift; sourceTree = "<group>"; };
+		484BED121FE4255500706F75 /* ScoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScoreData.swift; path = /Users/martijnblauw/Desktop/EigenApp/Models/ScoreData.swift; sourceTree = "<absolute>"; };
+		484BED161FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.28.png"; path = "../../Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.28.png"; sourceTree = "<group>"; };
+		484BED171FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.38.png"; path = "../../Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.38.png"; sourceTree = "<group>"; };
+		484BED181FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.45.png"; path = "../../Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.45.png"; sourceTree = "<group>"; };
+		484BED191FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.49.png"; path = "../../Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.49.png"; sourceTree = "<group>"; };
+		484BED1A1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.57.png"; path = "../../Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.57.png"; sourceTree = "<group>"; };
 		4877E13C1FDD654D00C8C08B /* EigenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EigenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4877E13F1FDD654D00C8C08B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4877E1411FDD654D00C8C08B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4877E1441FDD654D00C8C08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4877E1461FDD654D00C8C08B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4877E1491FDD654D00C8C08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4877E14B1FDD654D00C8C08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4877E1511FDD660800C8C08B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48D1B9531FDEC41700BAB8DD /* StartQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartQuizViewController.swift; sourceTree = "<group>"; };
+		48E4C5191FDD858B0086E1B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5F802C84176BF40ADD168C1C /* Pods-EigenApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EigenApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EigenApp/Pods-EigenApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56D681622046484AE1A6CF2 /* Pods_EigenApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41E157A8B84A8B46192ACAF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA06904AB4CBF80E1E9B44F /* Pods_EigenApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		484BED141FE4256000706F75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				481AA63F1FDEBB3400278484 /* QuestionData.swift */,
+				484BED121FE4255500706F75 /* ScoreData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		484BED151FE4389000706F75 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				484BED191FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.49.png */,
+				484BED1A1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.57.png */,
+				484BED161FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.28.png */,
+				484BED171FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.38.png */,
+				484BED181FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.45.png */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
 		4877E1331FDD654D00C8C08B = {
 			isa = PBXGroup;
 			children = (
+				484BED151FE4389000706F75 /* docs */,
+				484BED141FE4256000706F75 /* Models */,
 				4877E13E1FDD654D00C8C08B /* EigenApp */,
 				4877E13D1FDD654D00C8C08B /* Products */,
+				BB5D5266CDF7AFFFA6B11984 /* Pods */,
+				41E157A8B84A8B46192ACAF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +118,29 @@
 		4877E13E1FDD654D00C8C08B /* EigenApp */ = {
 			isa = PBXGroup;
 			children = (
-				4877E13F1FDD654D00C8C08B /* AppDelegate.swift */,
-				4877E1411FDD654D00C8C08B /* ViewController.swift */,
 				4877E1431FDD654D00C8C08B /* Main.storyboard */,
+				4877E13F1FDD654D00C8C08B /* AppDelegate.swift */,
+				483312AC1FE282A8008BD2D3 /* QuizController.swift */,
+				48E4C5191FDD858B0086E1B1 /* LoginViewController.swift */,
+				48D1B9531FDEC41700BAB8DD /* StartQuizViewController.swift */,
+				481AA63D1FDEB75D00278484 /* QuestionViewController.swift */,
+				483312AA1FE27E73008BD2D3 /* ResultsViewController.swift */,
+				484BED0E1FE40B2D00706F75 /* ScoresTableViewController.swift */,
 				4877E1461FDD654D00C8C08B /* Assets.xcassets */,
 				4877E1481FDD654D00C8C08B /* LaunchScreen.storyboard */,
 				4877E14B1FDD654D00C8C08B /* Info.plist */,
+				4877E1511FDD660800C8C08B /* GoogleService-Info.plist */,
 			);
 			path = EigenApp;
+			sourceTree = "<group>";
+		};
+		BB5D5266CDF7AFFFA6B11984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F802C84176BF40ADD168C1C /* Pods-EigenApp.debug.xcconfig */,
+				39ADC8119039BDC3CBD77682 /* Pods-EigenApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4877E14E1FDD654D00C8C08B /* Build configuration list for PBXNativeTarget "EigenApp" */;
 			buildPhases = (
+				B9E8D1E3B70362737B81E936 /* [CP] Check Pods Manifest.lock */,
 				4877E1381FDD654D00C8C08B /* Sources */,
 				4877E1391FDD654D00C8C08B /* Frameworks */,
 				4877E13A1FDD654D00C8C08B /* Resources */,
+				388B6E00A9596A5093217D34 /* [CP] Embed Pods Frameworks */,
+				E81A0309BD75304BC8AC15A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,7 +205,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484BED1F1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.57.png in Resources */,
 				4877E14A1FDD654D00C8C08B /* LaunchScreen.storyboard in Resources */,
+				484BED1E1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.49.png in Resources */,
+				484BED1D1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.45.png in Resources */,
+				4877E1521FDD660800C8C08B /* GoogleService-Info.plist in Resources */,
+				484BED1B1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.28.png in Resources */,
+				484BED1C1FE438A700706F75 /* Simulator Screen Shot - iPhone 8 Plus - 2017-12-15 at 18.05.38.png in Resources */,
 				4877E1471FDD654D00C8C08B /* Assets.xcassets in Resources */,
 				4877E1451FDD654D00C8C08B /* Main.storyboard in Resources */,
 			);
@@ -131,13 +219,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		388B6E00A9596A5093217D34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EigenApp/Pods-EigenApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EigenApp/Pods-EigenApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9E8D1E3B70362737B81E936 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EigenApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E81A0309BD75304BC8AC15A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EigenApp/Pods-EigenApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4877E1381FDD654D00C8C08B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4877E1421FDD654D00C8C08B /* ViewController.swift in Sources */,
+				484BED0F1FE40B2D00706F75 /* ScoresTableViewController.swift in Sources */,
+				484BED131FE4255500706F75 /* ScoreData.swift in Sources */,
+				483312AD1FE282A8008BD2D3 /* QuizController.swift in Sources */,
+				48E4C51A1FDD858B0086E1B1 /* LoginViewController.swift in Sources */,
 				4877E1401FDD654D00C8C08B /* AppDelegate.swift in Sources */,
+				481AA63E1FDEB75D00278484 /* QuestionViewController.swift in Sources */,
+				481AA6401FDEBB3400278484 /* QuestionData.swift in Sources */,
+				48D1B9541FDEC41700BAB8DD /* StartQuizViewController.swift in Sources */,
+				483312AB1FE27E73008BD2D3 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +427,7 @@
 		};
 		4877E14F1FDD654D00C8C08B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F802C84176BF40ADD168C1C /* Pods-EigenApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +442,7 @@
 		};
 		4877E1501FDD654D00C8C08B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39ADC8119039BDC3CBD77682 /* Pods-EigenApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
